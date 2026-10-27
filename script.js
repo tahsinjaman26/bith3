@@ -2,8 +2,8 @@
 const CONFIG={
   photos:[],                        // ছবির তালিকা, যেমন ["photos/1.jpg","photos/2.jpg"]
   fireworks:20,                     // আতশবাজির সংখ্যা
-  introSongs:[],   // হাগ/No চাপার দৃশ্যের গান, যেমন ["song1.mp3"]
-  mainSongs:[],    // No-র পরে মূল জন্মদিনের সাইটের গান, যেমন ["song2.mp3","song3.mp3"]
+  introSongs:["audio front.mp3"],   // হাগ/No চাপার দৃশ্যের গান, যেমন ["song1.mp3"]
+  mainSongs:["audio back 1", "audio back 4","audio back 3","audio back 2"],    // No-র পরে মূল জন্মদিনের সাইটের গান, যেমন ["song2.mp3","song3.mp3"]
   name:"প্রিয়তমা",                 // স্ত্রীর নাম
   from:"তোমার ভালোবাসার মানুষ",      // তোমার নাম
   birthday:"2027-01-01",            // পরের জন্মদিনের তারিখ (YYYY-MM-DD)
